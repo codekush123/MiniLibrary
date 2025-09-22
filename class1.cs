@@ -1,7 +1,5 @@
 using System;
 
-namespace ASSIGNMENT2
-{
     public class Book
     {
         public string Title { get; set; }
@@ -37,4 +35,3 @@ namespace ASSIGNMENT2
             return $"{Title} by {Author}";
         }
     }
-}
